@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:printing_press_app/view/user/homepage.dart';
+import 'package:printing_press_app/view/admin/admin_homepage.dart';
+import 'package:printing_press_app/view/user/userhomepage.dart';
 import 'package:printing_press_app/view/login_page.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const UserHomepage(),
+      home: const AdminHomepage(),
     );
   }
 }
